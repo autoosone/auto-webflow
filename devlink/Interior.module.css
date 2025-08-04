@@ -1,0 +1,21 @@
+.interior__headline {
+  display: flex;
+  width: 100%;
+  height: 116px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--black-da195c7f);
+
+  color: var(--white-3b69ab30);
+}
+
+.interior__img {
+  width: 100%;
+  min-height: 100vh;
+
+  background-image: url("https://cdn.prod.website-files.com/687bbc3b0bb3dd57d6c1fd83/687bbc3b0bb3dd57d6c1fdeb_MS-Interior-Hero-Desktop.jpeg");
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

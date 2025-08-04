@@ -1,0 +1,48 @@
+.card_header {
+  display: flex;
+  margin-bottom: auto;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  grid-column-gap: 0rem;
+  grid-row-gap: 0rem;
+}
+
+@media screen and (max-width: 479px) {
+  .card_header {
+    align-items: flex-start;
+  }
+}
+
+.card_location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: #747474;
+  font-size: 0.8rem;
+}
+
+.helper {
+  border-radius: 0.25rem;
+  outline-color: #00e4ff;
+  outline-offset: 3px;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+.card_model {
+  display: flex;
+  grid-column-gap: 0.25rem;
+  grid-row-gap: 0.25rem;
+  font-size: 1rem;
+}
+
+.card_name {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#w-node-f8d3d19f-1727-0f8a-dbc5-ad99070d8651-070d8651 {
+}

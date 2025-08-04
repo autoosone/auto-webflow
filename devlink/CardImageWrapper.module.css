@@ -1,0 +1,33 @@
+.card_image_wrapper {
+  position: relative;
+  overflow: clip;
+  aspect-ratio: 1/1;
+  background-color: #4c4c4c;
+}
+
+.card_image_logo {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+
+  width: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 0.125rem;
+
+  border-radius: 999rem;
+
+  background-color: hsla(0, 0.00%, 100.00%, 1.00);
+}
+
+.card_image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+#w-node-_6ca304b3-85b2-7e8e-deb9-64ccda557742-da557742 {
+}

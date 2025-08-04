@@ -1,0 +1,56 @@
+"use client";
+
+console.warn(
+  "⚠️ Avoid importing components from 'index.js' for better performance. This practice is deprecated and may be removed in the future."
+);
+
+export * as _Builtin from "./_Builtin";
+export * from "./devlinkContext";
+export * from "./interactions";
+export * from "./utils";
+export * from "./devlink";
+export * from "./ActiveCard";
+export * from "./CardContent";
+export * from "./CardHeader";
+export * from "./CardImageWrapper";
+export * from "./ChrckField";
+export * from "./Cta";
+export * from "./Cta1";
+export * from "./DevLinkProvider";
+export * from "./Empty";
+export * from "./FilterFormBlock";
+export * from "./FilterResults";
+export * from "./Footer2";
+export * from "./FormBlock";
+export * from "./Freedom";
+export * from "./Go";
+export * from "./Hero";
+export * from "./Impact";
+export * from "./InstanceFilterForm";
+export * from "./Int2Card";
+export * from "./Int2FormBlock";
+export * from "./IntCard";
+export * from "./Interior";
+export * from "./MFormBlock";
+export * from "./MainCardComponent";
+export * from "./MainFilterBlock1";
+export * from "./MainFilterBlockHeader";
+export * from "./MainFilterBock";
+export * from "./MainFilterEmpty";
+export * from "./MainFilterList";
+export * from "./MainFilterResults";
+export * from "./MainFilterTags";
+export * from "./Mileage";
+export * from "./Navbar";
+export * from "./Powertrain";
+export * from "./Showcase";
+export * from "./Slider";
+export * from "./Specs";
+export * from "./WizClear";
+export * from "./WizFilterBlock";
+export * from "./WizFilterEmpty";
+export * from "./WizFilterHeader";
+export * from "./WizFilterList";
+export * from "./WizFilterTags";
+export * from "./WizFormBlock";
+export * from "./WizStaticList";

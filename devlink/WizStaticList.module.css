@@ -1,0 +1,30 @@
+.static_list-wrapper {
+  padding: 1rem;
+}
+
+.helper {
+  border-radius: 0.25rem;
+  outline-color: #00e4ff;
+  outline-offset: 3px;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+.static_list {
+  padding: 1rem;
+}
+
+.static_item {
+  padding: 0.25rem;
+}
+
+.filter_card {
+  padding: 2rem;
+  border-radius: 0.255rem;
+  background-color: hsla(0, 0.00%, 100.00%, 1.00);
+  color: #111;
+}
+
+.filter_card_name {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,73 @@
+.showcase-grid__item {
+  min-height: 328px;
+}
+
+.showcase-grid__item.showcase-grid__img {
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.showcase-grid__item.showcase-grid__img.showcase-grid__img--1 {
+  background-image: url("https://cdn.prod.website-files.com/687bbc3b0bb3dd57d6c1fd83/687bbc3b0bb3dd57d6c1fdf0_MS-Interior-Grid-A-Desktop.jpeg");
+}
+
+.showcase-grid__item.showcase-grid__img.showcase-grid__img--2 {
+  background-image: url("https://cdn.prod.website-files.com/687bbc3b0bb3dd57d6c1fd83/687bbc3b0bb3dd57d6c1fdf2_MS-Interior-Grid-B-Desktop.jpeg");
+}
+
+.showcase-grid__item.showcase-grid__img.showcase-grid__img--3 {
+  background-image: url("https://cdn.prod.website-files.com/687bbc3b0bb3dd57d6c1fd83/687bbc3b0bb3dd57d6c1fdf3_MS-Interior-Grid-C-Desktop.jpeg");
+}
+
+.showcase-grid__item.showcase-grid__img.showcase-grid__img--4 {
+  background-image: url("https://cdn.prod.website-files.com/687bbc3b0bb3dd57d6c1fd83/687bbc3b0bb3dd57d6c1fdf1_MS-Interior-Grid-D-Desktop.jpeg");
+}
+
+.showcase-grid__item.showcase-grid__img.showcase-grid__img--5 {
+  background-image: url("https://cdn.prod.website-files.com/687bbc3b0bb3dd57d6c1fd83/687bbc3b0bb3dd57d6c1fdf9_MS-Exterior-Grid-B-Desktop.jpeg");
+}
+
+.showcase-grid__item.showcase-grid__img.showcase-grid__img--6 {
+  background-image: url("https://cdn.prod.website-files.com/687bbc3b0bb3dd57d6c1fd83/687bbc3b0bb3dd57d6c1fdfa_MS-Exterior-Grid-A-Desktop.jpeg");
+}
+
+.showcase-grid__item.showcase-grid__img.showcase-grid__img--7 {
+  background-image: url("https://cdn.prod.website-files.com/687bbc3b0bb3dd57d6c1fd83/687bbc3b0bb3dd57d6c1fdf8_MS-Exterior-Grid-C-Desktop.jpeg");
+}
+
+.showcase-grid__item.showcase-grid__text {
+  display: flex;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 991px) {
+  .showcase-grid__item.showcase-grid__text {
+    min-height: 200px;
+    padding-top: 0rem;
+  }
+}
+
+.showcase-grid__text {
+  max-width: 40ch;
+}
+
+@media screen and (max-width: 991px) {
+  .showcase-grid__text {
+    max-width: 70ch;
+  }
+}
+
+.showcase-grid__item.showcase-grid__text.showcase-grid__text--left {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 991px) {
+  .showcase-grid__item.showcase-grid__text.showcase-grid__text--left {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,125 @@
+.filter_results {
+  display: flex;
+  min-height: 4.5rem;
+  padding: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  border-radius: 0.25rem;
+
+  background-color: #242424;
+}
+
+@media screen and (max-width: 479px) {
+  .filter_results {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.filter_results_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.filter_results_text {
+  font-size: 0.9375rem;
+}
+
+.filter_results_span {
+  display: inline-block;
+  min-width: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+
+  border-radius: 0.25rem;
+
+  background-color: #111;
+
+  color: #a1a1a1;
+  text-align: center;
+}
+
+.helper {
+  border-radius: 0.25rem;
+  outline-color: #00e4ff;
+  outline-offset: 3px;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+.filter_dropdown {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.filter_dropdown_toggle {
+  display: flex;
+  min-width: 12rem;
+  padding: 0.5rem 4rem 0.5rem 1.2rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-radius: 0.25rem;
+
+  background-color: #414141;
+
+  color: #a1a1a1;
+}
+
+.filter_dropdown_toggle:hover {
+  background-color: #4c4c4c;
+}
+
+.filter_dropdown_icon {
+  margin-right: 1.2rem;
+  font-size: 1rem;
+}
+
+.filter_dropdown_list:global(.w--open) {
+  margin-top: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: #414141;
+}
+
+.filter_dropdown_link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  padding: 1rem 2rem 1rem 1.5rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-bottom: 1px solid #242424;
+
+  color: #a1a1a1;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.filter_dropdown_link:hover {
+  background-color: #4c4c4c;
+}
+
+.filter_dropdown_link:global(.w--current) {
+  background-color: #313131;
+  color: #828282;
+}
+
+#w-node-_2d468044-56bb-8836-3908-5c8140a6b79a-40a6b79a {
+}
+#w-node-_2d468044-56bb-8836-3908-5c8140a6b79c-40a6b79a {
+}

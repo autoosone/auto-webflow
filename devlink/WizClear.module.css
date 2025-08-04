@@ -1,0 +1,26 @@
+.filter_clear-all {
+  padding: 0.75rem 1rem;
+
+  border-radius: 0.25rem;
+
+  background-color: #414141;
+
+  color: #a1a1a1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.filter_clear-all:hover {
+  background-color: #4c4c4c;
+}
+
+.helper {
+  border-radius: 0.25rem;
+  outline-color: #00e4ff;
+  outline-offset: 3px;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+#w-node-d4d09c65-4c86-deab-a57d-03250b6faa27-0b6faa27 {
+}

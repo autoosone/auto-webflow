@@ -1,0 +1,126 @@
+.specs {
+  display: flex;
+  min-height: 100vh;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+
+  background-color: var(--black-da195c7f);
+}
+
+@media screen and (max-width: 991px) {
+  .specs {
+    flex-direction: column;
+  }
+}
+
+.specs__img {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .specs__img {
+    width: 100%;
+  }
+}
+
+.specs__txt {
+  display: flex;
+  width: 40%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .specs__txt {
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+}
+
+.specs__info {
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  color: var(--white-3b69ab30);
+}
+
+.specs__tabs {
+  margin-top: 1rem;
+}
+
+.tabs-menu {
+  display: flex;
+}
+
+@media screen and (max-width: 479px) {
+  .tabs-menu {
+    flex-direction: column;
+  }
+}
+
+.button-tab {
+  display: flex;
+  min-width: 200px;
+  margin: 3px;
+  padding: 10px 40px;
+  flex-direction: column;
+  align-items: center;
+
+  border: 2px solid var(--grey-4fe97fb0);
+  border-radius: 100px;
+
+  background-color: transparent;
+
+  transition: all 300ms ease;
+
+  font-family: 'Gotham Medium';
+  color: var(--grey-4fe97fb0);
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-tab:hover {
+  background-color: var(--white-3b69ab30);
+  color: var(--black-da195c7f);
+}
+
+.button-tab:global(.w--current) {
+  border-color: var(--white-3b69ab30);
+  background-color: transparent;
+  color: var(--white-3b69ab30);
+}
+
+.specs__tab-content {
+  margin-top: 1rem;
+}
+
+.specs__grid {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.specs__item {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.specs__line {
+  width: 40px;
+  height: 1px;
+  margin-bottom: 0.5rem;
+  background-color: var(--grey-4fe97fb0);
+}
+
+.text-block {
+  font-family: 'Gotham Medium';
+  font-size: 1rem;
+}
+
+.text-block-2 {
+  font-family: 'Gotham Book';
+}
