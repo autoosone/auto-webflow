@@ -1,17 +1,13 @@
 {
   "cloud": {
-    "framework": "nextjs"
-  },
-  "devlink": {
-    "host": "https://api.webflow.com",
-    "rootDir": "./devlink",
-    "cssModules": true
+    "framework": "nextjs",
+    "project_id": "1734d8bc-8bc5-4811-9867-68c8fae648f0"
   },
   "telemetry": {
     "global": {
       "allowTelemetry": true,
-      "lastPrompted": 1754335606432,
-      "version": "1.8.27"
+      "lastPrompted": 1756083596615,
+      "version": "1.8.36"
     }
   }
 }
