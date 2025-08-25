@@ -2,8 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'standalone',
-  basePath: "/auto", // Changed from /app to /auto
-  assetPrefix: "/auto", // Changed from /app to /auto
+  // No basePath needed for root deployment
+  // basePath: "", 
+  // assetPrefix: "",
   images: {
     unoptimized: true,
     domains: ['uploads-ssl.webflow.com', 'cdn.prod.website-files.com', 'images.unsplash.com'],
