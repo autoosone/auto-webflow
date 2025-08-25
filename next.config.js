@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'standalone',
-  basePath: "/app", // REQUIRED for Webflow Cloud mount path
-  assetPrefix: "/app", // REQUIRED for Webflow Cloud assets
+  basePath: "/auto", // Changed from /app to /auto
+  assetPrefix: "/auto", // Changed from /app to /auto
   images: {
     unoptimized: true,
     domains: ['uploads-ssl.webflow.com', 'cdn.prod.website-files.com', 'images.unsplash.com'],
